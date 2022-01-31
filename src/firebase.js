@@ -1,16 +1,16 @@
-// Import the functions you need from the SDKs you need
-import firebase from 'firebase/app';
-import 'firebase/auth';
-   
-    const firebaseConfig = {
-        apiKey: "AIzaSyAaC-qj3yCVfLJXAd6cUQrwJG9j9AZQpqw",
-        authDomain: "voosh.firebaseapp.com",
-        projectId: "voosh",
-        storageBucket: "datavoosh.appspot.com",
-        messagingSenderId: "718177920709",
-        appId: "1:718177920709:web:eb61f3b0de54e3b9f3b2ac"
-      };
 
-      firebase.initializeApp(firebaseConfig);
-  
-      export default firebase;
+import firebase from "firebase/app";
+import 'firebase/auth';
+
+const firebaseConfig = {
+  apiKey: "AIzaSyCtZmSxb5mmoZIlFRNTPU8H6nY4TjPu8ZA",
+  authDomain: "voosh-124be.firebaseapp.com",
+  projectId: "voosh-124be",
+  storageBucket: "voosh-124be.appspot.com",
+  messagingSenderId: "169036737621",
+  appId: "1:169036737621:web:c14882280e10e46978b8dc"
+};
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+export default firebase;
